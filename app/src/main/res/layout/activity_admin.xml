@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundwhite"
+    tools:context=".admin.Admin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/ululbiru"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="100dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:text="List Lagu"
+        android:textSize="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Gallery"
+        android:textSize="20dp"
+        android:onClick="onklikGallery"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>
