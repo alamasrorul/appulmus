@@ -135,13 +135,13 @@ public class AdmGallery extends AppCompatActivity {
                                 @Override
                                 public void onSuccess(Uri uri) {
                                     TextView text1=(EditText) findViewById(R.id.inputtxt) ;
-                                    DatabaseReference imagestore=FirebaseDatabase.getInstance().getReference("User").child(UUID.randomUUID().toString());//ganti img dengan text
+                                    DatabaseReference imagestore=FirebaseDatabase.getInstance().getReference("uploads").child(UUID.randomUUID().toString());//ganti img dengan text
 
 
                                     //HashMap<String,String> hashMap = new HashMap<>();
                                     //hashMap.put("imageurl",String.valueOf(uri));
-                                    imagestore.child("Judul").setValue(text1.getText().toString());
-                                    imagestore.child("Url").setValue(String.valueOf(uri)).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    imagestore.child("name").setValue(text1.getText().toString());
+                                    imagestore.child("imageUrl").setValue(String.valueOf(uri)).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void aVoid) {
                                             Toast.makeText(AdmGallery.this, "Final ", Toast.LENGTH_SHORT).show();
@@ -177,9 +177,9 @@ public class AdmGallery extends AppCompatActivity {
 
 
     }
-
+//onclick gallery
     public void gallery(View v){
-        Intent i = new Intent(AdmGallery.this,Gallery.class);
+        Intent i = new Intent(AdmGallery.this,ImagesActivity.class);
         startActivity(i);
 
     }
