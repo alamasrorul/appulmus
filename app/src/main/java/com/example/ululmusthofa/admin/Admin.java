@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.ululmusthofa.R;
+import com.example.ululmusthofa.admin.AdminLagu.ListLagu.ListLagu;
+import com.example.ululmusthofa.admin.AdminLagu.UploadLagu;
 
 public class Admin extends AppCompatActivity {
 
@@ -15,8 +17,14 @@ public class Admin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
     }
+
     public void onklikGallery(View v){
         Intent i=new Intent(Admin.this,AdmGallery.class);
+        startActivity(i);
+    }
+
+    public void ListLg(View v){
+        Intent i=new Intent(Admin.this, UploadLagu.class);
         startActivity(i);
     }
 }

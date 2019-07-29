@@ -48,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:textSize="25dp"
+        android:onClick="ListLagu"
         android:background="@drawable/buttonlg"
 
         />
@@ -71,6 +72,7 @@
         android:layout_marginLeft="10dp"
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:onClick="GaleriMain"
         android:textSize="25dp"
         android:background="@drawable/buttongallery"
 
@@ -98,7 +100,7 @@
          >
     <Button
         android:id="@+id/button3"
-        android:onClick="login"
+        android:onClick="admin"
         android:textColor="@color/blue"
         android:layout_width="180dp"
         android:layout_height="180dp"

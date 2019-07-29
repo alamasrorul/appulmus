@@ -12,17 +12,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.ululmusthofa.MainActivity;
 import com.example.ululmusthofa.R;
+import com.example.ululmusthofa.admin.FirebaseGallery.ImagesActivity;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -31,7 +29,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.UUID;
 
 public class AdmGallery extends AppCompatActivity {
@@ -61,7 +58,7 @@ public class AdmGallery extends AppCompatActivity {
 
         public void onClick2(View v) {
             uploadimg();
-  /*          //instansiasi edittext
+  /*         //instansiasi edittext
     EditText jdl=(EditText) findViewById(R.id.judul);
     EditText jdl2=(EditText) findViewById(R.id.judul2);
             //instansiasi database firebase
@@ -179,7 +176,7 @@ public class AdmGallery extends AppCompatActivity {
     }
 //onclick gallery
     public void gallery(View v){
-        Intent i = new Intent(AdmGallery.this,ImagesActivity.class);
+        Intent i = new Intent(AdmGallery.this, ImagesActivity.class);
         startActivity(i);
 
     }

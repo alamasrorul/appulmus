@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:background="@drawable/ululbiru"
         android:layout_marginTop="50dp"
+
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="50dp"
@@ -19,20 +20,22 @@
         />
     <Button
         android:layout_width="match_parent"
+
         android:text="List Lagu"
+        android:onClick="ListLg"
         android:textSize="20dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="30dp"
-        android:layout_height="60dp" />
+        android:layout_height="150dp" />
     <Button
         android:layout_width="match_parent"
         android:text="Gallery"
         android:textSize="20dp"
         android:onClick="onklikGallery"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="30dp"
-        android:layout_height="60dp" />
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="150dp" />
 
 </LinearLayout>
