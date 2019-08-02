@@ -6,76 +6,107 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".admin.Login.Login"
-    android:background="@drawable/backgroundwhite">
+    android:background="@color/colorPrimaryDark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        >
    <ImageView
        android:layout_width="match_parent"
-       android:background="@drawable/ululbiru"
+       android:background="@drawable/ulul"
        android:layout_marginTop="30dp"
        android:layout_marginRight="20dp"
        android:layout_marginLeft="20dp"
-       android:layout_marginBottom="50dp"
+       android:layout_marginBottom="30dp"
        android:layout_height="100dp"
        />
+    </RelativeLayout>
 
- <TextView
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_marginLeft="30dp"
-     android:text="Email"
-     android:textColor="@color/black"
-     android:textSize="20dp" />
-    <EditText
-        android:id="@+id/username"
-        android:hint="User Name"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/primary"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_email"
+
+            />
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="Email"
+        android:layout_height="50dp"
+        android:textColorHint="@color/putih"
+        android:textColor="@color/putih"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
         android:layout_marginRight="40dp"
          />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
 
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+     <ImageView
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_gravity="center"
+         android:layout_marginLeft="10dp"
+         android:src="@drawable/ic_pasw"
+         />
     <EditText
         android:id="@+id/password"
         android:hint="Password"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/putih"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/putih"
         android:inputType="textPassword"
         android:layout_marginRight="40dp"
         />
-    <Button
-        android:layout_width="match_parent"
+    </LinearLayout>
+        <Button
+        android:layout_width="130dp"
         android:id="@+id/loginbtn"
-        android:text="LOGIN"
-        android:textSize="20dp"
-
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
+        android:text="Login"
+        android:textColor="@color/putih"
+        android:textSize="15dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/my_button"
         android:layout_marginTop="40dp"
-        android:layout_height="60dp" />
+        android:layout_height="50dp" />
 
  <Button
      android:id="@+id/Daftar"
      android:layout_width="60dp"
      android:layout_height="43dp"
-     android:layout_marginLeft="40dp"
-     android:layout_gravity="center"
-     android:layout_marginTop="30dp"
+     android:layout_marginTop="10dp"
      android:layout_marginRight="40dp"
 
      style="@style/Widget.AppCompat.Button.Borderless"
      android:textSize="20dp" />
 
-
-
+    </LinearLayout>
 </LinearLayout>

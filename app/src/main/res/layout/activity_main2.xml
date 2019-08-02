@@ -4,65 +4,98 @@
 
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/backgroundwhite"
+android:orientation="vertical"
+android:background="@color/primary"
 android:layout_height="match_parent"
 tools:context=".admin.AdminLagu.ListLagu.tampilan.Main2Activity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
 
-    <ImageView
+
+    <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="120dp"
-    android:background="@drawable/ululbiru"
-    />
-
-
-    <TextView
-        android:id="@+id/textTimer"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:textSize="20dp"
-        android:text="00:00"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <ImageButton
-        android:id="@+id/btn_play_pause"
-        android:layout_below="@id/textTimer"
-        android:src="@drawable/ic_play"
+    android:layout_height="150dp"
+    android:background="@color/colorAccent"
+        >
+        <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <SeekBar
-        android:id="@+id/seekbar"
-        android:layout_marginTop="15dp"
-        android:layout_below="@id/btn_play_pause"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-        <WebView
-            android:layout_width="fill_parent"
             android:layout_marginTop="20dp"
-            android:layout_height="fill_parent"
-            android:layout_marginBottom="10dp"
-            android:id="@+id/webView"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ulul"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        >
 
 
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_marginTop="15dp"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btn_play_pause"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/ic_play"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/my_button"
+            />
+
+
+        <TextView
+            android:id="@+id/textTimer"
+
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:visibility="invisible"
+            android:text="00:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            >
+            <WebView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/webView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
 
     </LinearLayout>
+
 </LinearLayout>

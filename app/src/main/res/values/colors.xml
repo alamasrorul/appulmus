@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="primary">#D81B60</color>
-    <color name="white">#FFFF</color>
-    <color name="black">#000000</color>
-    <color name="blue">#015F85</color>
-    <color name="ungu">#BF00FF</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+
+    <color name="colorAccent">#5e92f3</color>
+
+    <color name="primary">#1565c0</color>
+    <color name="putih">#ffffff</color>
+    <color name="biru1">#283593</color>
+    <color name="biru2">#001064</color>
+
+    <color name="ungu1">#9c27b0</color>
+    <color name="ungu2">#6a0080</color>
 </resources>

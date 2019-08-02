@@ -23,7 +23,7 @@ public class Admin extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void ListLg(View v){
+    public void onklikListlagu(View v){
         Intent i=new Intent(Admin.this, UploadLagu.class);
         startActivity(i);
     }

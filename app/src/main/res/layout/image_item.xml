@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:orientation="vertical"
-        android:background="@drawable/backgroundwhite"
+        android:background="@color/colorAccent"
 
         >
 
@@ -25,10 +25,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="8dp"
             android:text="Name"
-            android:textColor="@android:color/black"
+            android:textColor="@color/putih"
             android:textSize="20sp" />
 
     </LinearLayout>

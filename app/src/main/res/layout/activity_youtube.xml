@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Yutub.YoutubeActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageButton
+
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/my_button"
+            android:scaleType="fitCenter"
+            android:onClick="Home"
+            android:src="@drawable/ic_home"
+            android:contentDescription="@string/desc_menu_home" />
+
+        <ImageButton
+            android:layout_marginStart="48dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/my_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_yutub"
+            android:contentDescription="@string/desc_menu_youtube" />
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

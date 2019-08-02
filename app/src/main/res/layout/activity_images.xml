@@ -6,26 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".admin.FirebaseGallery.ImagesActivity"
     android:orientation="vertical"
-    android:background="@drawable/backgroundwhite"
+    android:background="@color/primary"
     >
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorAccent"
+    >
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:background="@drawable/ululbiru"
-        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ulul"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
 
         />
+
+</LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
 
         />
     <ProgressBar

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">UlulMusthofa</string>
+    <string name="title_home">Home</string>
+    <string name="Youtube">Youtube</string>
+    <string name="desc_menu_youtube">menu youtube nav desc</string>
+    <string name="desc_menu_home">menu home descriptioni</string>
+
+
 </resources>

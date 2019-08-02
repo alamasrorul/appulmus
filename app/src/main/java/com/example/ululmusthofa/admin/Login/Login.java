@@ -119,7 +119,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
         // membuat User admin baru
         writeNewAdmin(user.getUid(), username, user.getEmail());
 
-        // Go to MainActivity
+        // Go to Login
         startActivity(new Intent(Login.this, Admin.class));
         finish();
     }
@@ -171,6 +171,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
             signIn();
         } else if (i == R.id.Daftar) {
             signUp();
+
         }
     }
 
