@@ -20,15 +20,15 @@ public class SplashScreen extends AwesomeSplash {
 
         //Customize Circular Reveal
         configSplash.setBackgroundColor(R.color.black); //any color you want form colors.xml
-        configSplash.setAnimCircularRevealDuration(2000); //int ms
+        configSplash.setAnimCircularRevealDuration(1000); //int ms
         configSplash.setRevealFlagX(Flags.REVEAL_RIGHT);  //or Flags.REVEAL_LEFT
         configSplash.setRevealFlagY(Flags.REVEAL_TOP); //or Flags.REVEAL_TOP
 
         //Choose LOGO OR PATH; if you don't provide String value for path it's logo by default
 
         //Customize Logo
-        configSplash.setLogoSplash(R.drawable.splash); //or any other drawable
-        configSplash.setAnimLogoSplashDuration(1000); //int ms
+        configSplash.setLogoSplash(R.drawable.splash2); //or any other drawable
+        configSplash.setAnimLogoSplashDuration(500); //int ms
         configSplash.setAnimLogoSplashTechnique(Techniques.FadeIn); //choose one form Techniques (ref: https://github.com/daimajia/AndroidViewAnimations)
 
         //set title background

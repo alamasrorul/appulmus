@@ -108,7 +108,7 @@ public class ListLagu extends AppCompatActivity {
         return new Intent(activity, ListLagu.class);
     }
 
-    public void onDeleteData(PojoLagu barang, final int position) {
+    public void onDeleteData1(PojoLagu barang, final int position) {
         /*
          * Kode ini akan dipanggil ketika method onDeleteData
          * dipanggil dari adapter lewat interface.

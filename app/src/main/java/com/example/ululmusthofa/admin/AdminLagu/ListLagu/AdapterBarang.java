@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -32,6 +33,7 @@ class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBarangRecycl
 
     private ArrayList<PojoLagu> daftarBarang;
     private Context context;
+
     private DatabaseReference database;
     public AdapterBarangRecyclerView(ArrayList<PojoLagu> barangs, Context ctx){
         /**
@@ -81,19 +83,15 @@ class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBarangRecycl
         holder.tvTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /**
-                 *  Kodingan untuk tutorial Selanjutnya :p Read detail data
-                 */
+
                 context.startActivity(Main2Activity.getActIntent((Activity) context).putExtra("date", daftarBarang.get(position)));
 
             }
         });
-        holder.tvTitle.setOnLongClickListener(new View.OnLongClickListener() {
+        /*holder.tvTitle.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                /**
-                 *  Kodingan untuk tutorial Selanjutnya :p Delete dan update data
-                 */
+
 
                 final Dialog dialog = new Dialog(context);
                 dialog.setContentView(R.layout.dialog_view);
@@ -120,9 +118,9 @@ class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBarangRecycl
                         new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                /**
-                                 *  Kodingan untuk Delete data (memanggil interface delete data)
-                                 */
+
+
+
                                 dialog.dismiss();
                                // int position = getAdapterPosition();
 
@@ -131,7 +129,7 @@ class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBarangRecycl
                 );
                 return true;
             }
-        });
+        });*/
         holder.tvTitle.setText(name);
     }
 

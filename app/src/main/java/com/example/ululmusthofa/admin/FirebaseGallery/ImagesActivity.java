@@ -95,6 +95,8 @@ public class ImagesActivity extends AppCompatActivity implements ImageAdapter.On
     @Override
     public void onWhatEverClick(int position) {
         Toast.makeText(this, "Posisi " + position, Toast.LENGTH_SHORT).show();
+
+
     }
 
     @Override

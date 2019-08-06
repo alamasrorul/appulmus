@@ -26,6 +26,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
     private List<Upload> mUploads;
     private OnItemClickListener mListener;
 
+
     public ImageAdapter(Context context, List<Upload> uploads) {
         mContext = context;
         mUploads = uploads;
@@ -82,10 +83,10 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
         @Override
         public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
             menu.setHeaderTitle("Select Action");
-            MenuItem doWhatever = menu.add(Menu.NONE, 1, 1, "Do whatever");
+            //MenuItem doWhatever = menu.add(Menu.NONE, 1, 1, "Do whatever");
             MenuItem delete = menu.add(Menu.NONE, 2, 2, "Delete");
 
-            doWhatever.setOnMenuItemClickListener(this);
+            //doWhatever.setOnMenuItemClickListener(this);
             delete.setOnMenuItemClickListener(this);
         }
 
@@ -97,7 +98,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
 
                     switch (item.getItemId()) {
                         case 1:
-                            mListener.onWhatEverClick(position);
+                        //    mListener.onWhatEverClick(position);
                             return true;
                         case 2:
                             mListener.onDeleteClick(position);

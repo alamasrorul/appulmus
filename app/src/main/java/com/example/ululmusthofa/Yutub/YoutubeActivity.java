@@ -36,6 +36,10 @@ public class YoutubeActivity extends AppCompatActivity {
         youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/UB_O0XM7dbs\" frameborder=\"0\" allowfullscreen></iframe>") );
         youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/EtSYoLUkegc\" frameborder=\"0\" allowfullscreen></iframe>") );
         youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/J1YZ1XxM1Cc\" frameborder=\"0\" allowfullscreen></iframe>") );
+        youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/fjIHiuVPtCQ\" frameborder=\"0\" allowfullscreen></iframe>") );
+        youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/f4A-4Lunb14\" frameborder=\"0\" allowfullscreen></iframe>") );
+        youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/Dkmu_I9reDU\" frameborder=\"0\" allowfullscreen></iframe>") );
+        youtubeVideos.add( new YouTubeVideos("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/uz3TyPDpFKo\" frameborder=\"0\" allowfullscreen></iframe>") );
 
 
         VideoAdapter videoAdapter = new VideoAdapter(youtubeVideos);

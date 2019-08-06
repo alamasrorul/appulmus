@@ -55,7 +55,7 @@
         android:textColor="@color/putih"
         android:layout_width="match_parent"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="10dp"
          />
 
     </LinearLayout>
@@ -83,7 +83,7 @@
         android:layout_marginLeft="20dp"
         android:textColor="@color/putih"
         android:inputType="textPassword"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="10dp"
         />
     </LinearLayout>
         <Button

@@ -88,6 +88,7 @@ public class Main2Activity extends AppCompatActivity implements MediaPlayer.OnBu
         textView = (TextView)findViewById(R.id.textTimer);
 
         btn_play_pause = (ImageButton) findViewById(R.id.btn_play_pause);
+
         btn_play_pause.setOnClickListener(new View.OnClickListener() {
 
 
@@ -182,6 +183,10 @@ public class Main2Activity extends AppCompatActivity implements MediaPlayer.OnBu
         btn_play_pause.setImageResource(R.drawable.ic_play);
 
 
+    }
+    public void onBackPressed() {
+        mediaPlayer.pause();
+        finish();
     }
 
     public static Intent getActIntent(Activity activity) {
