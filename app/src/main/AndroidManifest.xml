@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ululmusthofa">
+    package="com.makaryo.ululmusthofa">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,17 +15,17 @@
         android:roundIcon="@mipmap/ic_iconsp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Yutub.YoutubeActivity"></activity>
-        <activity android:name=".admin.AdminLagu.ListLagu.tampilan.Main2Activity" />
-        <activity android:name=".admin.AdminLagu.ListLagu.EditListLagu" />
-        <activity android:name=".admin.AdminLagu.ListLagu.ListLagu" />
-        <activity android:name=".admin.AdminLagu.UploadLagu" />
-        <activity android:name=".admin.FirebaseGallery.ImagesActivity" />
-        <activity android:name=".admin.AdmGallery" />
-        <activity android:name=".admin.Admin" />
-        <activity android:name=".admin.Login.Login" />
+        <activity android:name="com.makaryo.ululmusthofa.Yutub.YoutubeActivity"></activity>
+        <activity android:name="com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.tampilan.Main2Activity" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.EditListLagu" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.ListLagu" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.AdminLagu.UploadLagu" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.FirebaseGallery.ImagesActivity" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.AdmGallery" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.Admin" />
+        <activity android:name="com.makaryo.ululmusthofa.admin.Login.Login" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.makaryo.ululmusthofa.SplashScreen"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.makaryo.ululmusthofa.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
