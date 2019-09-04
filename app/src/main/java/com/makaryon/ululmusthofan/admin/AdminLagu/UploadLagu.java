@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.AdminLagu;
+package com.makaryon.ululmusthofan.admin.AdminLagu;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +12,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.makaryo.ululmusthofa.R;
-import com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.ListLagu;
+import com.makaryon.ululmusthofan.R;
+import com.makaryon.ululmusthofan.admin.AdminLagu.ListLagu.ListLagu;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;

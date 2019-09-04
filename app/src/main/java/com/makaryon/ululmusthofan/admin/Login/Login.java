@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.Login;
+package com.makaryon.ululmusthofan.admin.Login;
 
 
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.makaryo.ululmusthofa.R;
-import com.makaryo.ululmusthofa.admin.Admin;
+import com.makaryon.ululmusthofan.R;
+import com.makaryon.ululmusthofan.admin.Admin;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

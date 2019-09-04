@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin;
+package com.makaryon.ululmusthofan.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.makaryo.ululmusthofa.R;
-import com.makaryo.ululmusthofa.admin.AdminLagu.UploadLagu;
+import com.makaryon.ululmusthofan.R;
+import com.makaryon.ululmusthofan.admin.AdminLagu.UploadLagu;
 
 public class Admin extends AppCompatActivity {
 

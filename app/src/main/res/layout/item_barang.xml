@@ -2,18 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="?android:attr/listPreferredItemHeight"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/primary"
-    android:padding="5dp"
 
-    android:layout_marginBottom="5dp"
     >
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       app:cardUseCompatPadding="true"
+       app:cardCornerRadius="4dp"
+       app:cardElevation="5dp"
+       >
     <TextView
         android:id="@+id/tv_namabarang"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_margin="3dp"
+        android:layout_height="61dp"
         android:background="@drawable/my_button"
-        android:textColor="@color/putih"
+        android:textColor="@color/white"
         android:textSize="20sp" />
+   </androidx.cardview.widget.CardView>
+
 </LinearLayout>

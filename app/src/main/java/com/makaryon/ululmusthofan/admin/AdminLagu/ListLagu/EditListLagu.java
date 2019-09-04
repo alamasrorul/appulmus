@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu;
+package com.makaryon.ululmusthofan.admin.AdminLagu.ListLagu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.makaryo.ululmusthofa.R;
+import com.makaryon.ululmusthofan.R;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DatabaseReference;

@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.FirebaseGallery;
+package com.makaryon.ululmusthofan.admin.FirebaseGallery;
 import com.google.firebase.database.Exclude;
 
 public class Upload {

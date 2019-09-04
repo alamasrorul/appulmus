@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin;
+package com.makaryon.ululmusthofan.admin;
 
 
 import androidx.annotation.NonNull;
@@ -17,8 +17,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.makaryo.ululmusthofa.R;
-import com.makaryo.ululmusthofa.admin.FirebaseGallery.ImagesActivity;
+import com.makaryon.ululmusthofan.R;
+import com.makaryon.ululmusthofan.admin.FirebaseGallery.ImagesActivity;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;

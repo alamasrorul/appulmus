@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa;
+package com.makaryon.ululmusthofan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.makaryo.ululmusthofa.Yutub.YoutubeActivity;
-import com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.ListLagu;
-import com.makaryo.ululmusthofa.admin.AdminLagu.UploadLagu;
-import com.makaryo.ululmusthofa.admin.FirebaseGallery.ImagesActivity;
-import com.makaryo.ululmusthofa.admin.Login.Login;
+
+import com.makaryon.ululmusthofan.admin.AdminLagu.ListLagu.ListLagu;
+import com.makaryon.ululmusthofan.admin.AdminLagu.UploadLagu;
+import com.makaryon.ululmusthofan.admin.FirebaseGallery.ImagesActivity;
+import com.makaryon.ululmusthofan.admin.Login.Login;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,13 +69,7 @@ public class MainActivity extends AppCompatActivity {
         finish();
         System.exit(0);
     }
-    public void yutub(View v){
 
-
-        Intent i= new Intent(MainActivity.this, YoutubeActivity.class);
-
-        startActivity(i);
-    }
 
 
 

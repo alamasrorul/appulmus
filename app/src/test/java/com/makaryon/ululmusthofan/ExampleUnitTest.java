@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa;
+package com.makaryon.ululmusthofan;
 
 import org.junit.Test;
 

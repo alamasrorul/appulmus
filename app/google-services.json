@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:150221433122:android:b2d20ffcddcd6189",
         "android_client_info": {
-          "package_name": "com.makaryo.ululmusthofa"
+          "package_name": "com.makaryon.ululmusthofa"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "150221433122-oksljd8u6uedi0utgo81g18qstasaifk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.makaryo.ululmusthofa",
+            "package_name": "com.makaryon.ululmusthofa",
             "certificate_hash": "fc6004b56f3173eac8142434b8b547f03d7b4a4e"
           }
         },

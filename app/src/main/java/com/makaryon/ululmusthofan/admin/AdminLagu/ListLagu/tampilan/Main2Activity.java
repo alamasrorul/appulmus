@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.tampilan;
+package com.makaryon.ululmusthofan.admin.AdminLagu.ListLagu.tampilan;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.makaryo.ululmusthofa.R;
-import com.makaryo.ululmusthofa.admin.AdminLagu.ListLagu.PojoLagu;
+import com.makaryon.ululmusthofan.R;
+import com.makaryon.ululmusthofan.admin.AdminLagu.ListLagu.PojoLagu;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 

@@ -1,4 +1,4 @@
-package com.makaryo.ululmusthofa.admin.FirebaseGallery;
+package com.makaryon.ululmusthofan.admin.FirebaseGallery;
 
 
 
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.makaryo.ululmusthofa.R;
+import com.makaryon.ululmusthofan.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
